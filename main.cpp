@@ -20,7 +20,7 @@ int main()
     cout << N << " to power number: ";
 
     int power = 1;
-    for (int i = 1; i <= M; i++) {
+    for (int i = 0; i <= M; i++) {
         cout << power << " ";
         power *= N;
     }
